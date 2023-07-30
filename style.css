@@ -34,11 +34,17 @@ a{
     text-decoration: none;
 
 }
+a:hover{
+    transform: scale(0.9);
+}
+
 .block{
     display: flex;
     justify-items: center;
     flex-direction: column;
     padding: 40px 15px;
+    gap: 20px 0;
+    background-color: #00000091;
 }
 
 ul{
@@ -72,6 +78,7 @@ iframe{
     background-color: #fe0000;
     padding: 20px;
     color: #fefefe;
+   
 }
 
 .block2{
@@ -87,6 +94,7 @@ iframe{
     margin: 20px 0;
     padding: 15px;
     border-radius: 12px;
+    gap: 10px;
 }
 .block3 ul{
     padding: 0;
@@ -102,7 +110,7 @@ iframe{
 }
 
 .content-icon{
-    background-color: #fefefe;
+    background-color: #00000091;
     padding: 20px;
     border-radius: 6px 80px 6px 6px;
 }
@@ -172,7 +180,7 @@ iframe{
 #parcela{
     border: 5px solid #C4F40A;
     border-radius: 25px;
-    width: 50%;
+    width: 66%;
     font-size: 26px;
 
 }
@@ -188,10 +196,6 @@ iframe{
     font-size: 50px;
 }
 
-.block9{
-    background-color: #dedede;
-}
-
 
 .block9 li{
     margin: 20px 0;
@@ -200,9 +204,15 @@ iframe{
 
 .faq{
     display: flex;
-    gap: 10px;
     padding: 10px;
     cursor: pointer;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.faq h3{
+    max-width: 80%;
+    padding-left: 10px;
 }
 .faq svg{
     transform: rotate(90deg);
