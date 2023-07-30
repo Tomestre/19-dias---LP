@@ -9,6 +9,13 @@ body{
     text-align: center;
     flex-direction: column;
 }
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #C4F40A;
+    border-radius: 4px;
+}
 h1, h2, h3,h4,h5,a{
     margin: 0;
     padding: 0;
