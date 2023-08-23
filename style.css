@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     word-wrap: normal;
     overflow-wrap: normal;
+    min-width: 396px;
 }
 ::-webkit-scrollbar {
     width: 2px;
