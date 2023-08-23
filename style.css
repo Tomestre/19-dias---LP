@@ -21,6 +21,12 @@ body{
 h1, h2, h3,h4,h5,a{
     margin: 0;
     padding: 0;
+    display: contents;
+
+}
+
+video{
+    width: 100%;
 }
 
 h1{
@@ -266,4 +272,37 @@ footer{
   .splide__slide video {
     width: 100%;
     
+  }
+
+  @media screen and (min-width: 500px){
+    video {
+        max-width: 400px;
+    }
+
+    .block3 ul{
+        padding: 0;
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+
+    .block3 li{
+        flex: 1;
+    }
+
+    .block4 ul{
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .block4 li{
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .block9 h4{
+        max-width: 700px
+    }
   }
