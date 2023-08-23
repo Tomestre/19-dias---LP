@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     word-wrap: normal;
     overflow-wrap: normal;
-    min-width: 396px;
+    min-width: 500px;
 }
 ::-webkit-scrollbar {
     width: 2px;
@@ -22,7 +22,6 @@ body{
 h1, h2, h3,h4,h5,a{
     margin: 0;
     padding: 0;
-    display: contents;
 
 }
 
@@ -56,13 +55,14 @@ a:hover{
 }
 
 .block{
-    display: flex;
-    justify-items: center;
     flex-direction: column;
-    padding: 40px 15px;
     gap: 20px 0;
     background-color: #00000091;
     align-items: center;
+    display: grid;
+    justify-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 ul{
@@ -149,6 +149,7 @@ img{
 }
 
 .block4{
+    display: flex;
     padding: 40px 20px;
 }
 
@@ -283,7 +284,7 @@ footer{
     }
 
     .block3 ul{
-        padding: 0;
+        padding: 10px;
         flex-direction: row;
         gap: 10px;
         flex-wrap: wrap;
