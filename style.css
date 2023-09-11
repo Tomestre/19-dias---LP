@@ -96,6 +96,7 @@ img{
 }
 
 #whatsapp{
+    z-index: 2;
     border: none;
     background-color: transparent;
     width: 150px;
