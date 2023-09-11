@@ -96,10 +96,12 @@ img{
 }
 
 #whatsapp{
-    width: 50px;
+    border: none;
+    background-color: transparent;
+    width: 150px;
     position: fixed;
-    bottom: 5px;
-    right: 15px;
+    bottom: 0px;
+    right: 0px;
 }
 
 .svg-icon{
