@@ -95,6 +95,13 @@ img{
     max-width:100%;
 }
 
+#whatsapp{
+    width: 50px;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+}
+
 .svg-icon{
     width: 20px;
 }
